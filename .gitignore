@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+
+# SSH Keys
+*.pem
+*.key
+kdmodder-ssh-key
+kdmodder-ssh-key.pub
+
+# Lock files
+*.lock.hcl
+
+# Local files
+.env
+
